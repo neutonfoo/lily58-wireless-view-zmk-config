@@ -28,5 +28,15 @@
                            &kp LALT  &kp LGUI  &mo 0   &kp LGUI    &kp SPACE  &mo 0   &kp BSPC  &kp RGUI
             >;
         };
+
+        layer_1 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans            &trans             &kp K_VOLUME_DOWN
+&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp K_VOLUME_DOWN
+&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans            &trans             &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans            &trans             &trans
+                        &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans
+            >;
+        };
     };
 };
